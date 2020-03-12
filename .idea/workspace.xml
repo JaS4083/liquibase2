@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea4d7fb6-cdb6-4156-8cec-9fd8f67eecd8" name="Default Changelist" comment="" />
+    <list default="true" id="ea4d7fb6-cdb6-4156-8cec-9fd8f67eecd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7831ed49-26f8-4822-b479-de1a12547e16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +45,11 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="315">
               <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
@@ -61,78 +65,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://DATABASE/7228ece5-89ce-481f-a62f-4a85fec35657.SCHEMA:saloon">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>7228ece5-89ce-481f-a62f-4a85fec35657.SCHEMA:saloon</OriginalElement>
-              <nodes>
-                <node x="70.25000000000006" y="267.0">7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.CUSTOMER</node>
-                <node x="203.00000000000003" y="523.0">7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.TRANSACTION</node>
-                <node x="0.0" y="512.0">7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.PRODUCT</node>
-                <node x="-507.66776545145717" y="1006.719734893376">7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.DATABASECHANGELOG</node>
-                <node x="-75.8946141604763" y="1150.7209003688517">7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.DATABASECHANGELOGLOCK</node>
-                <node x="291.25000000000006" y="212.0">7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.EMPLOYEE</node>
-                <node x="103.25000000000003" y="702.0">7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.TRANSACTIONDETAIL</node>
-                <node x="308.25000000000006" y="0.0">7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.LOCATION</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.TRANSACTION" target="7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.CUSTOMER">
-                  <point x="-42.99999999999997" y="-59.0" />
-                  <point x="246.00000000000006" y="487.0" />
-                  <point x="170.75000000000006" y="487.0" />
-                  <point x="0.0" y="70.0" />
-                </edge>
-                <edge source="7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.TRANSACTION" target="7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.EMPLOYEE">
-                  <point x="43.00000000000003" y="-59.0" />
-                  <point x="332.00000000000006" y="487.0" />
-                  <point x="407.25000000000006" y="487.0" />
-                  <point x="0.0" y="125.0" />
-                </edge>
-                <edge source="7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.EMPLOYEE" target="7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.LOCATION">
-                  <point x="0.0" y="-125.0" />
-                  <point x="0.0" y="81.0" />
-                </edge>
-                <edge source="7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.TRANSACTIONDETAIL" target="7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.PRODUCT">
-                  <point x="-43.5" y="-59.0" />
-                  <point x="146.75000000000003" y="677.0" />
-                  <point x="91.5" y="677.0" />
-                  <point x="0.0" y="70.0" />
-                </edge>
-                <edge source="7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.TRANSACTIONDETAIL" target="7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.TRANSACTION">
-                  <point x="43.5" y="-59.0" />
-                  <point x="233.75000000000003" y="677.0" />
-                  <point x="289.0" y="677.0" />
-                  <point x="0.0" y="59.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.747468500747234" x="-31.916235587084543" y="301.08376441291546" />
-              <SelectedNodes>
-                <node>7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.DATABASECHANGELOGLOCK</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Key columns</Category>
-                <Category>Columns</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/changelogs/db.changelog-1.0.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-785">
+            <state relative-caret-position="135">
               <caret line="9" column="40" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/changelogs/sources/saloondata.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
+            <state relative-caret-position="583">
               <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="652">
+              <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -159,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/changelogs/db.changelog-3.0.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -167,7 +121,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -180,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/main/changelogs/db.changelog-3.0.xml" />
         <option value="$PROJECT_DIR$/src/main/master.xml" />
         <option value="$PROJECT_DIR$/src/main/changelogs/sources/saloondata.sql" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -206,7 +161,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="713" />
@@ -270,7 +225,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584031449628" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584050543057" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -309,49 +264,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584017611439</updated>
-      <workItem from="1584017615906" duration="6928000" />
+      <workItem from="1584017615906" duration="7337000" />
+      <workItem from="1584050470608" duration="73000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6928000" />
+    <option name="totallyTimeSpent" value="7410000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32142857" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32142857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.32928804" />
-      <window_info anchor="right" x="0" y="0" width="540" height="600" id="Documentation" weight="0.32928804" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" weight="0.27184466" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32928804" />
+      <window_info anchor="right" x="0" y="0" width="540" height="600" id="Documentation" order="4" weight="0.32928804" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.27184466" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Mongo Explorer" order="11" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -392,13 +349,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7831ed49-26f8-4822-b479-de1a12547e16/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -419,12 +369,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.6611195158850227" x="336.66361556064066" y="323.5" />
+          <settings layout="Hierarchic Group" zoom="0.6611195158850227" x="337.0" y="324.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -433,13 +384,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7228ece5-89ce-481f-a62f-4a85fec35657/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/liquibase.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="uml://DATABASE/7228ece5-89ce-481f-a62f-4a85fec35657.SCHEMA:saloon">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -487,7 +431,7 @@
               <point x="0.0" y="59.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.747468500747234" x="-31.916235587084543" y="301.08376441291546" />
+          <settings layout="Hierarchic Group" zoom="0.747468500747234" x="-32.0" y="301.0" />
           <SelectedNodes>
             <node>7228ece5-89ce-481f-a62f-4a85fec35657.TABLE:saloon.DATABASECHANGELOGLOCK</node>
           </SelectedNodes>
@@ -495,13 +439,28 @@
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/changelogs/db.changelog-3.0.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="315">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/liquibase.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/changelogs/db.changelog-1.0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -519,17 +478,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/changelogs/db.changelog-1.0.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/changelogs/db.changelog-3.0.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-785">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/changelogs/sources/saloondata.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
+        <state relative-caret-position="583">
           <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
         </state>
       </provider>
     </entry>
